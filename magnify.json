@@ -7,7 +7,10 @@
   ],
   "packages": [
     {
-      "name": "Meteor Scrapers",
+      "name": "The Big 5 Scrapers",
+      "author": "Meteor",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/navsthind88-sudo/syncler-scrapers/refs/heads/main/magnify.json",
       "manifest": {
         "stremthru": {
           "name": "StremThru",
