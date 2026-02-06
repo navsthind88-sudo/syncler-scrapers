@@ -1,0 +1,45 @@
+{
+  "name": "meteor vendor",
+  "hero_": [
+    "░█▀▄▀█─█▀▀█─█▀▀▀─█▀▀▄─▀█▀─█▀▀─█──█",
+    "░█─█─█─█▀▀█─█─▀█─█──█──█──█▀▀─█▄▄█",
+    "░█───█─▀──▀─▀▀▀▀─▀──▀─▀▀▀─▀───▄▄▄█"
+  ],
+  "packages": [
+    {
+      "name": "meteor",
+      "manifest": {
+        "stremthru": {
+          "name": "StremThru",
+          "enabled": true,
+          "base_url": "http://10.0.0.130:8080",
+          "response_type": "json"
+        },
+        "torrentio": {
+          "name": "Torrentio",
+          "enabled": true,
+          "base_url": "https://magnify.pages.dev/scrapers/torrentio",
+          "response_type": "json"
+        },
+        "comet": {
+          "name": "Comet",
+          "enabled": true,
+          "base_url": "https://magnify.pages.dev/scrapers/comet",
+          "response_type": "json"
+        },
+        "dmm": {
+          "name": "DMM",
+          "enabled": true,
+          "base_url": "https://magnify.pages.dev/scrapers/dmm",
+          "response_type": "json"
+        },
+        "mediafusion": {
+          "name": "MediaFusion",
+          "enabled": true,
+          "base_url": "https://magnify.pages.dev/scrapers/mediafusion",
+          "response_type": "json"
+        }
+      }
+    }
+  ]
+}
