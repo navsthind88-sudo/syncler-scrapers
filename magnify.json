@@ -1,5 +1,5 @@
 {
-  "name": "meteor vendor",
+  "name": "Meteor Private Vendor",
   "hero_": [
     "░█▀▄▀█─█▀▀█─█▀▀▀─█▀▀▄─▀█▀─█▀▀─█──█",
     "░█─█─█─█▀▀█─█─▀█─█──█──█──█▀▀─█▄▄█",
@@ -7,12 +7,12 @@
   ],
   "packages": [
     {
-      "name": "meteor",
+      "name": "Meteor Scrapers",
       "manifest": {
         "stremthru": {
           "name": "StremThru",
           "enabled": true,
-          "base_url": "http://10.0.0.130:8080",
+          "base_url": "http://103.42.226.48:8080",
           "response_type": "json"
         },
         "torrentio": {
