@@ -1,48 +1,9 @@
 {
-  "name": "Meteor Private Vendor",
-  "hero_": [
-    "░█▀▄▀█─█▀▀█─█▀▀▀─█▀▀▄─▀█▀─█▀▀─█──█",
-    "░█─█─█─█▀▀█─█─▀█─█──█──█──█▀▀─█▄▄█",
-    "░█───█─▀──▀─▀▀▀▀─▀──▀─▀▀▀─▀───▄▄▄█"
-  ],
+  "name": "Meteor Private",
   "packages": [
     {
-      "name": "The Big 5 Scrapers",
-      "author": "Meteor",
-      "version": "1.0.0",
-      "url": "https://raw.githubusercontent.com/navsthind88-sudo/syncler-scrapers/refs/heads/main/magnify.json",
-      "manifest": {
-        "stremthru": {
-          "name": "StremThru",
-          "enabled": true,
-          "base_url": "http://103.42.226.48:8080",
-          "response_type": "json"
-        },
-        "torrentio": {
-          "name": "Torrentio",
-          "enabled": true,
-          "base_url": "https://magnify.pages.dev/scrapers/torrentio",
-          "response_type": "json"
-        },
-        "comet": {
-          "name": "Comet",
-          "enabled": true,
-          "base_url": "https://magnify.pages.dev/scrapers/comet",
-          "response_type": "json"
-        },
-        "dmm": {
-          "name": "DMM",
-          "enabled": true,
-          "base_url": "https://magnify.pages.dev/scrapers/dmm",
-          "response_type": "json"
-        },
-        "mediafusion": {
-          "name": "MediaFusion",
-          "enabled": true,
-          "base_url": "https://magnify.pages.dev/scrapers/mediafusion",
-          "response_type": "json"
-        }
-      }
+      "name": "Meteor Scrapers",
+      "manifest": "https://magnify.pages.dev/scrapers/manifest.json"
     }
   ]
 }
