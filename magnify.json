@@ -1,13 +1,20 @@
 {
-  "name": "The Big 5 Scrapers",
-  "author": "Meteor",
-  "version": "1.0.0",
-  "manifest": {
-    "stremthru": {
-      "name": "StremThru",
-      "enabled": true,
-      "base_url": "http://103.42.226.48:8080",
-      "response_type": "json"
+  "name": "My Private Vendor",
+  "author": "Self-Hosted",
+  "description": "My custom aggregators for Syncler V2",
+  "packages": [
+    {
+      "name": "Aggregator Pack",
+      "type": "express",
+      "url": "URL_TO_YOUR_EXPRESS_GIST_RAW",
+      "isDefault": true
     }
-  }
+  ],
+  "cacheServers": [
+    {
+      "name": "Official Cache",
+      "url": "https://cache.syncler.net",
+      "isDefault": true
+    }
+  ]
 }
