@@ -1,9 +1,13 @@
 {
-  "name": "Meteor Private",
-  "packages": [
-    {
-      "name": "Meteor Scrapers",
-      "manifest": "https://magnify.pages.dev/scrapers/manifest.json"
+  "name": "The Big 5 Scrapers",
+  "author": "Meteor",
+  "version": "1.0.0",
+  "manifest": {
+    "stremthru": {
+      "name": "StremThru",
+      "enabled": true,
+      "base_url": "http://103.42.226.48:8080",
+      "response_type": "json"
     }
-  ]
+  }
 }
